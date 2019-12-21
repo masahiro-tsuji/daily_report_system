@@ -47,7 +47,7 @@
         </c:choose>
 
         <P>
-            <a href="<c:url value='/employee/index'/>">一覧に戻る</a>
+            <a href="<c:url value='/employees/index'/>">一覧に戻る</a>
         </P>
     </c:param>
 </c:import>
