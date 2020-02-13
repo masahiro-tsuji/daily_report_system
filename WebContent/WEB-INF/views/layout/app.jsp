@@ -31,8 +31,8 @@
                 </div>
             </c:if>
         </div>
-        <div id="contetnt">${param.content}</div>
-        <div id="foter">by Masahiro Tsuji.</div>
+        <div id="content">${param.content}</div>
+        <div id="footer">by Masahiro Tsuji.</div>
     </div>
 </body>
 </html>
