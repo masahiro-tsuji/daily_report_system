@@ -22,8 +22,8 @@
                         <td><c:out value="${employee.name}" /></td>
                         <td><c:choose>
                                 <c:when test="${employee.delete_flag == 1}">
-            (削除済み)
-            </c:when>
+                                    (削除済み)
+                                </c:when>
                                 <c:otherwise>
                                     <a href="<c:url value='/employees/show?id=${employee.id}'/>">詳細を表示</a>
                                 </c:otherwise>
@@ -40,11 +40,11 @@
                 <c:choose>
                     <c:when test="${i==page}">
                         <c:out value="${i}" />&nbsp;
-       </c:when>
+                    </c:when>
                     <c:otherwise>
                         <a href="<c:url value='/employees/index?page=${i}'/>"><c:out
                                 value="${i}" /></a>&nbsp;
-       </c:otherwise>
+                     </c:otherwise>
                 </c:choose>
             </c:forEach>
         </div>
