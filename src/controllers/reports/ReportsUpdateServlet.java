@@ -61,7 +61,7 @@ public class ReportsUpdateServlet extends HttpServlet {
             } else {
                 em.getTransaction().begin();
                 em.getTransaction().commit();
-                request.getSession().setAttribute("flush", "更新が完了しました。");
+                request.getSession().setAttribute("flush", "更新が完了!");
 
                 request.getSession().removeAttribute("report_id");
 
