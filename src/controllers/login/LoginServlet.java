@@ -95,7 +95,7 @@ public class LoginServlet extends HttpServlet {
             //認証できなかったらログイン状態にしてトップページへリダイレクト
             request.getSession().setAttribute("login_employee",e);
 
-            request.getSession().setAttribute("flush","ログインしました。");
+            request.getSession().setAttribute("flush","ログイン完了");
             response.sendRedirect(request.getContextPath()+"/");
         }
     }
